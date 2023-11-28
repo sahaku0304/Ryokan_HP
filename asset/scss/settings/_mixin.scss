@@ -1,0 +1,12 @@
+@use "./variable" as *;
+
+@mixin pc {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
