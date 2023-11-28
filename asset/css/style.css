@@ -175,3 +175,7 @@ a {
     width: 33.5rem;
   }
 }/*# sourceMappingURL=style.css.map */
+
+.navigation__li {
+  color: red;
+}
