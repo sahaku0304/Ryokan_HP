@@ -5,7 +5,12 @@
 $font-sans: 'Noto Sans JP', sans-serif;
 $font-serif: 'Noto Serif JP', serif;
 
-$font-color: #333333;
+//カラー
+$cWhite: #ffffff;
+$cBlack: #000000;
+$cYellow: #978F10;
+$cLightWhite: #707070;
+
 
 @function vw($pixelsVw, $baseWidth) {
   @return calc($pixelsVw / $baseWidth * 100vw)
